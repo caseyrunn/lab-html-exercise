@@ -34,6 +34,7 @@ nav a {
 }
 
 #sectionOne {
+    margin: 0px 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -42,7 +43,40 @@ nav a {
     height: 500px;
 }
 
+#sectionOne > article {
+    width: 40%;
+    text-align: center;
+    font-size: 1.25em;
+    margin: 20px;
+}
+
 h1{
-    font-size: 3em;
+    font-size: 5em;
     font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    border: none;
+}
+
+.largeButton {
+    padding: 15px 60px;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+
+.redButton {
+    background-color: #fb3e44;
+    color: white;
+}
+
+.whiteButton {
+    background-color: white;
+    color: black;
+}
+
+.buttonShadow {
+    box-shadow: 8px 8px #fad1d3;
 }
