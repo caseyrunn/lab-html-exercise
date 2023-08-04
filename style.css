@@ -57,6 +57,7 @@ h1{
     padding: 0px;
 }
 
+
 button {
     border: none;
 }
@@ -79,4 +80,40 @@ button {
 
 .buttonShadow {
     box-shadow: 8px 8px #fad1d3;
+}
+
+
+#sectionTwo {
+    margin: 100px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#triangleHexagon {
+    width: 200px;
+}
+
+#sectionTwo > article {
+    width: 60%;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#sectionTwo > article > h2 {
+    font-size: 1.9em;
+
+}
+
+.yellowBackground {
+    background-color:#ffebb5;
+}
+
+.smaller {
+    padding: 0px 50px;
+}
+
+p{
+    line-height: 150%;
 }
