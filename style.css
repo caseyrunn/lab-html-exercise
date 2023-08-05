@@ -68,6 +68,12 @@ button {
     font-weight: bold;
 }
 
+.wideButton {
+    padding: 15px 100px;
+    margin: 50px 10px;
+    font-weight: bold;
+}
+
 .redButton {
     background-color: #fb3e44;
     color: white;
@@ -78,8 +84,17 @@ button {
     color: black;
 }
 
-.buttonShadow {
+.blackButton {
+    background-color: black;
+    color: white;
+}
+
+.pinkButtonShadow {
     box-shadow: 8px 8px #fad1d3;
+}
+
+.grayButtonShadow {
+    box-shadow: 8px 8px #e5ddd4;
 }
 
 
@@ -116,4 +131,30 @@ button {
 
 p{
     line-height: 150%;
+}
+
+#sectionThree {
+    margin: 100px 20px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.icon{
+    width: 40px;
+}
+
+.smallRow{
+    width: 25%;
+}
+
+.redText {
+    color:#fb3e44;
+}
+
+.smallParagraph {
+    width: 85%;
 }
