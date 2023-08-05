@@ -89,6 +89,19 @@ button {
     color: white;
 }
 
+.whiteButtonBorder {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.logInLink {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
 .pinkButtonShadow {
     box-shadow: 8px 8px #fad1d3;
 }
@@ -157,4 +170,32 @@ p{
 
 .smallParagraph {
     width: 85%;
+}
+
+.npmLogo {
+    width : 60px;
+}
+
+.magnifyingGlass {
+    width: 20px;
+    padding: 5px;
+}
+
+.form {
+    background-color: rgba(0,0,0,.05);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+input[type=text]{
+    border: 0px;
+    background-color: rgba(0,0,0,0);
+    width: 990px;
+}
+
+.searchBarDiv {
+    padding: 5px 20px;
 }
