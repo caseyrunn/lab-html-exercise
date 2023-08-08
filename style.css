@@ -97,6 +97,10 @@ button {
     text-decoration: none;
 }
 
+.searchButton {
+    margin: 0px;
+}
+
 .logInLink {
     text-decoration: none;
     padding: 5px 10px;
@@ -121,15 +125,15 @@ button {
 
 #triangleHexagon {
     width: 200px;
+    margin-bottom: 30px;
 }
 
 #sectionTwo > article {
     width: 60%;
     text-align: center;
-    margin: 20px 0px;
 }
 
-#sectionTwo > article > h2 {
+h2 {
     font-size: 1.9em;
 
 }
@@ -152,6 +156,7 @@ button {
 
 .smaller {
     padding: 0px 50px;
+
 }
 
 p{
