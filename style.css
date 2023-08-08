@@ -39,8 +39,8 @@ nav a {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #f8f4f4;
-    height: 500px;
+    background-color: rgba(232,217,217,.3);
+    height: 600px;
 }
 
 #sectionOne > article {
@@ -75,7 +75,7 @@ button {
 }
 
 .redButton {
-    background-color: #fb3e44;
+    background-color: #FB3B49;
     color: white;
 }
 
@@ -103,7 +103,7 @@ button {
 }
 
 .pinkButtonShadow {
-    box-shadow: 8px 8px #fad1d3;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
 }
 
 .grayButtonShadow {
@@ -134,9 +134,21 @@ button {
 
 }
 
-.yellowBackground {
-    background-color:#ffebb5;
+.backgroundSkew {
+    position: relative;
+    overflow: hidden;
+    background-color:rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    padding: 0px 30px;
+    margin: 20px;
 }
+
+.unskew {
+    transform: skew(-9deg,0deg);
+    margin: 0px;
+}
+
+
 
 .smaller {
     padding: 0px 50px;
@@ -185,7 +197,7 @@ p{
     background-color: rgba(0,0,0,.05);
     display: flex;
     justify-content: space-between;
-
+    padding: 5px 10px;
 }
 
 
@@ -193,7 +205,8 @@ p{
 input[type=text]{
     border: 0px;
     background-color: rgba(0,0,0,0);
-    width: 990px;
+    width: 980px;
+
 }
 
 .searchBarDiv {
