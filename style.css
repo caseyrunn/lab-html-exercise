@@ -4,7 +4,7 @@ body {
     font-family: 'Poppins';
 }
 
-header > div {
+.headerDiv {
     padding: 0 25px;
     display: flex;
     justify-content: space-between;
@@ -77,6 +77,7 @@ button {
 .redButton {
     background-color: #FB3B49;
     color: white;
+    border-width: 0px;
 }
 
 .whiteButton {
@@ -91,7 +92,9 @@ button {
 
 .whiteButtonBorder {
     background-color: white;
+    color: black;
     border-style: solid;
+    border-color: black;
     border-width: 1px;
     padding: 5px 10px;
     text-decoration: none;
@@ -104,6 +107,7 @@ button {
 .logInLink {
     text-decoration: none;
     padding: 5px 10px;
+    color: black;
 }
 
 .pinkButtonShadow {
@@ -195,6 +199,7 @@ p{
 
 .magnifyingGlass {
     width: 20px;
+    height: 20px;
     padding: 5px;
 }
 
@@ -216,4 +221,31 @@ input[type=text]{
 
 .searchBarDiv {
     padding: 5px 20px;
+}
+
+.formWrapper {
+    background-color: rgba(0,0,0,.05);
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+input[type = search]{
+    rgba(0,0,0,.05)
+    background-color: rgba(0,0,0,0);
+    
+}
+
+#searchButton {
+    padding : 10px;
+    margin : 0px;
+}
+
+.grayBackground {
+    background-color: rgba(0,0,0,.05);
 }
